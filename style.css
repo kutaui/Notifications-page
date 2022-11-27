@@ -34,7 +34,16 @@ h3 {
 }
 
 .number {
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 25%;
+    width: 35px ;
+    height: 30px;
+    background-color: blue;
     display: inline-block;
+    
+    text-align: center;
 }
 
 .container {
