@@ -120,13 +120,14 @@ p {
     padding-left: 15px;
     margin-left: 80px;
     border-radius: 7px;
-    border: 1px solid var(--lightgrayb2);
+    border: 1px solid var(--Lightgrayishblue1);
     width: 100%;
-    font-weight: 500;
-    color: var(--darkblue);
+    font-weight: 600;
+    color: var(--Darkgrayishblue);
 }
 
 .message:hover {
+    cursor: pointer;
     background-color: var(--Lightgrayishblue1);
 }
 
