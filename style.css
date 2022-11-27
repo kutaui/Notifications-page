@@ -14,66 +14,103 @@
     box-sizing: border-box;
 }
 
-.container {
-    position: relative;
-    height: 100vh;
-    width: 50vw;
-    margin: 70px auto;
-}
-
-h4 {
-    display: inline;
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+    
 }
 
 .notifications {
+    margin: 0px -15px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
-.active {
-    
-    background-color: var(--active)
-}
+/* notification is not bold enough */
 
-.pp {
-    vertical-align: middle;
-    height: 3.125rem;
-    width: 3.125rem;
-    
-}
-
-.chess {
-    margin-top: -3.4375rem;
-    float: right;
-    height: 50px;
-    width: 50px;
-}
-
-p {
-   line-height: normal;
-    display: inline-block;
-    
-}
-
-span {
-    margin-top: -10px;
-    margin-left: 3.400rem;
-    display: block;
-}
-
-.card {
-    
-    
+h3 {
+    font-weight: 800
 }
 
 .number {
     display: inline-block;
 }
 
+.container {
+    margin: 10px;
+    width: 50%;
+    height: 200vh;
+    border: 1px solid blue;
+    
+}
+
+.pp {
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.notis { 
+    margin: 10px;
+    border: 1px solid black;
+}
+
+p {
+    width: 90%;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.message {
+    margin-left: 80px;
+    border: 2px solid rgba(165, 12, 127, 0.849);
+    width: 80%;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.day {
+    display: block;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    margin: 40px 0;
+    border: 1px solid red;
+    
+}
+
+.msg {
+    flex-wrap: wrap;
+}
 
 
-.message {}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.chess {
+    margin-top: -40px;
+    position: relative;
+    float: right
+    
+}
+
+
+
+
+
+
+
 
 
 .attribution {
