@@ -37,7 +37,7 @@ body {
 .container {
     margin: 50px;
     width: 38%;
-    height: 200vh;
+    height: 100vh;
     background-color: white;
 }
 
@@ -208,7 +208,13 @@ img {
     cursor: pointer;
 }
 
-
+.new-notif {
+    background-color: var(--Red);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
 
 
 

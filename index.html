@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
 
 		<link
 			rel="icon"
@@ -13,63 +14,101 @@
 		/>
 
 		<title>Frontend Mentor | Notifications page</title>
-
-
 	</head>
 	<body>
-    <section class="container">
-      <div class="notifications">
-		    <div class="wrapper"><h2>  Notifications  </h2><div class="number">3</div></div>	<h5>Mark all as read</h5>
-	    </div>
-      <div class="active card"> 
-        <img src="assets/images/avatar-mark-webber.webp" alt="" class="pp">
-        <p class="notis">
-        <span class="bold">Mark Webber </span class="bold"><span class="grey"> reacted to your recent post</span> <span class="darkgrey">My first tournament today!</span><span class="day"> 1m ago</span>
-		    </p>
-      </div>
-		  <div class="active card">
-        <img src="assets/images/avatar-angela-gray.webp" alt="" class="pp">
-        <p class="notis">      
-          <span class="bold">Angela Gray</span class="bold"> <span class="grey">followed you</span> <span class="day"> 5m ago</span>
-        </p>
-      </div>
-		  <div class="active card">
-        <img src="assets/images/avatar-jacob-thompson.webp" alt="" class="pp">
-        <p class="notis"><span class="bold">Jacob Thompson </span class="bold"><span class="grey"> has joined your group</span> <span class="blue">Chess Club</span> <span class="day">1 day ago</span>
-        </p>
-      </div>
-      <div class="card msg">
-        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="" class="pp">
-  		  <p class="notis"><span class="bold">Rizky Hasanuddin</span class="bold"><span class="grey"> sent you a private message </span><span class="day">5 days ago</span></p>
-          <div class="break"></div>
-          <div class="message">
-            <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
-          </div>
-      </div>
-      
-		  
-      <div class="card">
-        <img src="assets/images/avatar-kimberly-smith.webp" alt="" class="pp">
-		    <p class="notis"><span class="bold">Kimberly Smith</span class="bold"> <span class="grey">commented on your picture</span> <span class="day">1 week ago</span>
-          <img src="assets/images/image-chess.webp" alt="" class="chess">
-        </p>
-      </div>
+		<section class="container">
+			<div class="notifications">
+				<div class="wrapper">
+					<h2>Notifications</h2>
+					<div class="number">3</div>
+				</div>
+				<h5>Mark all as read</h5>
+			</div>
+			<div class="active card">
+				<img src="assets/images/avatar-mark-webber.webp" alt="" class="pp" />
+				<p class="notis">
+					<span class="bold">Mark Webber </span>
+					<span class="grey"> reacted to your recent post</span>
+					<span class="darkgrey">My first tournament today! </span
+					><span class="new-notif"></span><span class="day"> 1m ago</span>
+				</p>
+			</div>
+			<div class="active card">
+				<img src="assets/images/avatar-angela-gray.webp" alt="" class="pp" />
+				<p class="notis">
+					<span class="bold">Angela Gray</span>
+					<span class="grey">followed you </span><span class="new-notif"></span>
+					<span class="day"> 5m ago</span>
+				</p>
+			</div>
+			<div class="active card">
+				<img src="assets/images/avatar-jacob-thompson.webp" alt="" class="pp" />
+				<p class="notis">
+					<span class="bold">Jacob Thompson </span
+					><span class="grey"> has joined your group</span>
+					<span class="blue">Chess Club </span>
+					<span class="new-notif"> </span>
+					<span class="day">1 day ago</span>
+				</p>
+			</div>
+			<div class="card msg">
+				<img
+					src="assets/images/avatar-rizky-hasanuddin.webp"
+					alt=""
+					class="pp"
+				/>
+				<p class="notis">
+					<span class="bold">Rizky Hasanuddin</span
+					><span class="grey"> sent you a private message </span
+					><span class="day">5 days ago</span>
+				</p>
+				<div class="break"></div>
+				<div class="message">
+					<p>
+						Hello, thanks for setting up the Chess Club. I've been a member for
+						a few weeks now and I'm already having lots of fun and improving my
+						game.
+					</p>
+				</div>
+			</div>
 
-      <div class="card">
-        <img src="assets/images/avatar-nathan-peterson.webp" alt="" class="pp">
-		    <p class="notis"><span class="bold">Nathan Peterson</span class="bold"><span class="grey">reacted to your recent post</span> <span class="grey">5 end-game strategies to
-			increase your win rate</span> <span class="day">2 weeks ago</span>
-		    </p>
-      </div>
+			<div class="card">
+				<img src="assets/images/avatar-kimberly-smith.webp" alt="" class="pp" />
+				<p class="notis">
+					<span class="bold">Kimberly Smith</span>
+					<span class="grey">commented on your picture</span>
+					<span class="day">1 week ago</span>
+					<img src="assets/images/image-chess.webp" alt="" class="chess" />
+				</p>
+			</div>
 
-      <div class="card">
-        <img src="assets/images/avatar-anna-kim.webp" alt="" class="pp">
-		    <p class="notis"><span class="bold">Anna Kim</span class="bold"><span class="grey">left the group</span> <span class="blue">Chess Club </span><span class="day">2 weeks ago</span> 
-        </p>
-      </div>
+			<div class="card">
+				<img
+					src="assets/images/avatar-nathan-peterson.webp"
+					alt=""
+					class="pp"
+				/>
+				<p class="notis">
+					<span class="bold">Nathan Peterson</span
+					><span class="grey">reacted to your recent post</span>
+					<span class="grey"
+						>5 end-game strategies to increase your win rate</span
+					>
+					<span class="day">2 weeks ago</span>
+				</p>
+			</div>
 
-    </section>
-<!-- 		<div class="attribution">
+			<div class="card">
+				<img src="assets/images/avatar-anna-kim.webp" alt="" class="pp" />
+				<p class="notis">
+					<span class="bold">Anna Kim</span
+					><span class="grey">left the group</span>
+					<span class="blue">Chess Club </span
+					><span class="day">2 weeks ago</span>
+				</p>
+			</div>
+		</section>
+		<!-- 		<div class="attribution">
 			Challenge by
 			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 				>Frontend Mentor</a
