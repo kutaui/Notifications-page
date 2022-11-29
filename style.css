@@ -216,7 +216,9 @@ img {
     display: inline-block;
 }
 
-
+.none {
+    display: none;
+}
 
 
 
