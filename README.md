@@ -1,4 +1,4 @@
-My take on the front end challange. Going to add responsive functionality later.<br />
+My take on the front end challange.<br />
 <br />
 For javascript had to use `forEach` method because `for of` does it one by one so user had to click three times for all of the elements. Also i used spread operator because it is not an `array` but an `HTMLCollection`.<br />
 <br />
